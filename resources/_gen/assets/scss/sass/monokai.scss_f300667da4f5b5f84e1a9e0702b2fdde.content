@@ -1,0 +1,10 @@
+body {
+  background: #1b1d1e; }
+  body #terminal {
+    color: #bbbbbb; }
+  body #user {
+    color: #23e298; }
+  body #dir {
+    color: #d08010; }
+  body .Typewriter__cursor {
+    color: #bbbbbb; }
