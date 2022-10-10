@@ -1,0 +1,27 @@
+<div class="foot">
+  <div class="funky">--\-- itundergrund &nbsp&nbsp&nbsp
+    <img src="nyan.png" alt="">
+  </div>
+  <script>
+    setTimeout(() => {
+    localStorage.setItem("skip-animation", true)
+    }, 7000);
+  </script>
+  <div class="funky">(87,0) &nbsp Git:master &nbsp (Emacs-Lisp Paredit lambda)</div>
+</div>
+
+<style>
+  .foot {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    background-color: #483d8b;
+    width: 100%;
+    color: white;
+}
+img {
+  min-height: max-content;
+}
+</style>

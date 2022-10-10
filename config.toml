@@ -6,7 +6,7 @@ theme = "hugo-theme-shell"
     description = "itu's hacking club"
     favicon = "/static/favicon.ico"
     [Params.Terminal]
-        schema = "retro"
+        schema = "monokai"
         userName = "it"
         pcName = "undergrund"
         workDir = "admin"
@@ -17,10 +17,10 @@ theme = "hugo-theme-shell"
         very nice to meet you!
     
         """
-
+        commandDelay = 50
     [Params.Tree]
         use = true
-        folderName = "our-secrets"
+        folderName = "home/itundergrund"
         files = [
             ["who-are-we" , "/post/whoarewe.md"],
             ["next-events", "/post/events.md"],
