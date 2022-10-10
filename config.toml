@@ -21,8 +21,8 @@ theme = "hugo-theme-shell"
     use = true
     folderName = "our-secrets"
     files = [
-        ["who are we?" , "https://www.example.com/"],
-        ["our achievements", "https://www.example.com/"],
-        ["im-a-beginner-help-me", "/works/go.md"],
-        ["im-ready-to-pwn", "/works/hugo.md"]
+        ["who-are-we" , "/post/whoarewe.md"],
+        ["next-events", "/post/events.md"],
+        ["im-a-beginner-help-me", "/post/skills.md"],
+        ["im-ready-to-pwn", "/post/skills.md"]
     ]
