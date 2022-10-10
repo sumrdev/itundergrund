@@ -2,27 +2,28 @@ baseURL = "https://sage-rabanadas-77bccc.netlify.app/"
 languageCode = "en-us"
 title = "itundergrund"
 theme = "hugo-theme-shell"
-
 [Params]
-    [Params.Terminal]
-    schema = "retro"
-    userName = "it"
-    pcName = "undergrund"
-    workDir = "admin"
-    profile = "flag.txt"
+    description = "itu's hacking club"
 
-    description = """
-    it{undergrund}
-    very nice to meet you!
-  
-    """
+    [Params.Terminal]
+        schema = "retro"
+        userName = "it"
+        pcName = "undergrund"
+        workDir = "admin"
+        profile = "flag.txt"
+
+        description = """
+        it{undergrund}
+        very nice to meet you!
+    
+        """
 
     [Params.Tree]
-    use = true
-    folderName = "our-secrets"
-    files = [
-        ["who-are-we" , "/post/whoarewe.md"],
-        ["next-events", "/post/events.md"],
-        ["im-a-beginner-help-me", "/post/skills.md"],
-        ["im-ready-to-pwn", "/post/skills.md"]
-    ]
+        use = true
+        folderName = "our-secrets"
+        files = [
+            ["who-are-we" , "/post/whoarewe.md"],
+            ["next-events", "/post/events.md"],
+            ["im-a-beginner-help-me", "/post/skills.md"],
+            ["im-ready-to-pwn", "/post/skills.md"]
+        ]
