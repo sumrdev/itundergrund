@@ -5,13 +5,24 @@ theme = "hugo-theme-shell"
 
 [Params]
     [Params.Terminal]
-    schema = "monokai"
+    schema = "retro"
+    userName = "it"
+    pcName = "undergrund"
+    workDir = "admin"
+    profile = "flag.txt"
+
+    description = """
+    it{undergrund}
+    very nice to meet you!
+  
+    """
 
     [Params.Tree]
     use = true
+    folderName = "our-secrets"
     files = [
-        ["C/C++", "https://www.example.com/"],
-        ["Python", "https://www.example.com/"],
-        ["Go", "/works/go.md"],
-        ["Hugo", "/works/hugo.md"]
+        ["who are we?" , "https://www.example.com/"],
+        ["our achievements", "https://www.example.com/"],
+        ["im-a-beginner-help-me", "/works/go.md"],
+        ["im-ready-to-pwn", "/works/hugo.md"]
     ]
