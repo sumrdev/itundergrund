@@ -6,10 +6,10 @@ theme = "hugo-theme-shell"
     description = "itu's hacking club"
     favicon = "/static/favicon.ico"
     [Params.Terminal]
-        schema = "monokai"
+        schema = "retro"
         userName = "it"
         pcName = "undergrund"
-        workDir = "admin"
+        workDir = ""
         profile = "flag.txt"
 
         description = """
@@ -20,7 +20,7 @@ theme = "hugo-theme-shell"
         commandDelay = 50
     [Params.Tree]
         use = true
-        folderName = "home/itundergrund"
+        folderName = "/home/itundergrund"
         files = [
             ["who-are-we" , "/post/whoarewe.md"],
             ["next-events", "/post/events.md"],

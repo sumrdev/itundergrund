@@ -1,1 +1,1 @@
-body{background:#000}body #terminal{color:#fff}body #user{color:#0ff}body #dir{color:#fb0}body .Typewriter__cursor{color:silver}a{color:silver}
+body{background:#000}body #terminal{color:silver}body #user{color:#0f0}body #dir{color:#ff3abd}body .Typewriter__cursor{color:silver}a{color:silver}

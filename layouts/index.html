@@ -25,7 +25,7 @@
     {{ $leaf := "" }}
     {{ if .Site.Params.Tree.use }}
     {{ $tree = printf "<span id='terminal'>ls %s/</span>" .Site.Params.Tree.folderName | safeHTML}}
-    {{ $leaf = printf "%s<strong><span id='dir'>./%s/</span></strong><br>" $leaf .Site.Params.Tree.folderName | safeHTML}}
+    {{ $leaf = printf "%s<strong><span id='dir'>%s/</span></strong><br>" $leaf .Site.Params.Tree.folderName | safeHTML}}
         {{ range $index, $val := .Site.Params.Tree.files }}
             {{ $ac := index $val 0}}
             {{ $link := index $val 1}}
