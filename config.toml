@@ -1,4 +1,4 @@
-baseURL = "https://itundergrund.netlify.app/"
+baseURL = "https://itunderground.netlify.app/"
 languageCode = "en-us"
 title = "itundergrund"
 theme = "hugo-theme-shell"
