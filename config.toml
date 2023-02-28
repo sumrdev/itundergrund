@@ -1,6 +1,6 @@
 baseURL = "https://itunderground.netlify.app/"
 languageCode = "en-us"
-title = "itundergrund"
+title = "itunderground"
 theme = "hugo-theme-shell"
 [Params]
     description = "itu's hacking club"
@@ -8,7 +8,7 @@ theme = "hugo-theme-shell"
     [Params.Terminal]
         schema = "retro"
         userName = "it"
-        pcName = "undergrund"
+        pcName = "underground"
         workDir = ""
         profile = "flag.txt"
 
@@ -20,10 +20,11 @@ theme = "hugo-theme-shell"
         commandDelay = 50
     [Params.Tree]
         use = true
-        folderName = "/home/itundergrund"
+        folderName = "/home/itunderground"
         files = [
             ["who-are-we" , "/post/whoarewe.md"],
             ["next-events", "/post/events.md"],
             ["im-a-beginner-help-me", "/post/skills.md"],
-            ["im-ready-to-pwn", "/post/skills.md"]
+            ["im-ready-to-pwn", "/post/skills.md"],
+            ["discord-server", "/post/discord.md"]
         ]
